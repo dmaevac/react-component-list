@@ -59,6 +59,11 @@ components:
     repo: https://github.com/andreypopp/react-stylesheet
     docs: ~
     demo: ~
+  - name: react-styles
+    description: Utility to manage styles for React JS components
+    repo: https://github.com/hedgerwang/react-styles
+    docs: ~
+    demo: ~
   - name: react-spinner
     description: Zero configuration loading spinner.
     repo: https://github.com/chenglou/react-spinner
@@ -77,6 +82,11 @@ components:
   - name: react-ago-component
     description: A component for React that renders the approximate time ago in words from a specific past date using an HTML5 time element.
     repo: https://github.com/martinandert/react-ago-component
+    docs: ~
+    demo: ~
+  - name: react-swf
+    description: Shockwave Flash Player component for React.
+    repo: https://github.com/syranide/react-swf
     docs: ~
     demo: ~
 
