@@ -12,7 +12,7 @@ var Item = React.createClass({
     var tags = [];
     d3.map(this.props.proj.keywords).forEach(function (k, v) {
       if (v !== 'react' && v !== 'react-component') {
-        tags.push(<Tag name={v} />);
+        tags.push(<Tag key={k} name={v} />);
       }
     });
     return <li className="project">
@@ -42,7 +42,7 @@ var Cats = React.createClass({
     d3.map(this.props.data).forEach(function (k, v) {
       lists.push(<li key={k}><h3>{k}</h3><List projects={v} /></li>)
     });
-    return (<ul>{lists}</ul>);
+    return (<div><input type="text" className="search" placeholder="Enter a keyword or project name..." /><ul>{lists}</ul></div>);
   }
 });
 

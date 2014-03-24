@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -207,6 +207,7 @@ pre code {
 
 ul, ol, dl {
     margin-bottom: 20px;
+     list-style: none;
 }
 
 /* COMMON STYLES */
@@ -311,8 +312,7 @@ blockquote {
 }
 
 ul li {
-    list-style: disc inside;
-    padding-left: 20px;
+     list-style: none;
 }
 
 ol li {
@@ -341,6 +341,10 @@ footer a:hover {
     color: #444;
 }
 
+section > ul > li > h3 {
+    text-transform: uppercase;
+}
+
 .tag {
     text-shadow: none;
     display: inline-block;
@@ -349,11 +353,18 @@ footer a:hover {
     background: dimgray;
     border-radius: 3px;
     color: white;
-    font-size: 70%;
+    font-size: 80%;
 }
 
 .project {
     display: block;
+    margin-bottom: 24px;
+}
+
+input.search {
+    font-size: 120%;
+    padding: 8px;
+    width: 100%;
     margin-bottom: 24px;
 }
 
