@@ -131,9 +131,9 @@ data:
     docs: ~
     demo: ~
   - name: avers
-    description: ~
+    description: A modern client-side model abstraction library
     repo: https://github.com/wereHamster/avers
-    docs: ~
+    docs: http://werehamster.github.io/avers/
     demo: ~
   - name: backbone-react-component
     description: Backbone.React.Component is a bridge between React and Backbone enabling data binding between models, collections and components both on the client and server sides.
