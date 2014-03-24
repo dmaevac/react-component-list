@@ -74,6 +74,11 @@ components:
     repo: https://github.com/chenglou/react-chosen
     docs: ~
     demo: ~
+  - name: react-ago-component
+    description: A component for React that renders the approximate time ago in words from a specific past date using an HTML5 time element.
+    repo: https://github.com/martinandert/react-ago-component
+    docs: ~
+    demo: ~
 
 starter-kits:
   - name: react-quickstart

@@ -4,8 +4,8 @@ A list of react.js components & related projects. (in yaml format)
 
 ###Contrib
 
-Please create pull requests to add.
+Please create pull requests to add/update/delete.
 
 ###Build
 
-`npm run sync // builds json file`
+`npm run build // builds json file`
