@@ -54,6 +54,30 @@ components:
     repo: https://github.com/bgerm/react-table-sorter-demo
     docs: ~
     demo: http://bgerm.github.io/react-table-sorter-demo/
+  -
+    name: react-translate-component
+    description: A component for React that utilizes the counterpart module to translate/localize its content
+    repo: https://github.com/martinandert/react-translate-component
+    docs: ~
+    demo: ~
+  -
+    name: react-stylesheet
+    description: A component for React to declare stylesheet dependencies for your reusable components
+    repo: https://github.com/andreypopp/react-stylesheet
+    docs: ~
+    demo: ~
+  -
+    name: react-spinner
+    description: Zero configuration loading spinner.
+    repo: https://github.com/chenglou/react-spinner
+    docs: ~
+    demo: ~
+  -
+    name: react-time
+    description: react component for rendering formatted timestamps
+    repo: https://github.com/andreypopp/react-time
+    docs: ~
+    demo: ~
 
 boilerplate:
   -
@@ -63,7 +87,7 @@ boilerplate:
     docs: ~
     demo: ~
 
-interface:
+interfaces:
   -
     name: om
     description: ClojureScript interface to Facebook's React
@@ -74,6 +98,12 @@ interface:
     name: jade-react
     description: Compile Jade templates to React.DOM expressions
     repo: https://github.com/duncanbeevers/jade-react
+    docs: ~
+    demo: ~
+  -
+    name: reactdown
+    description: Write React components using markdown syntax
+    repo: https://github.com/andreypopp/reactdown
     docs: ~
     demo: ~
 
