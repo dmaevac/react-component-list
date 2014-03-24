@@ -1,0 +1,93 @@
+---
+components:
+  -
+    name: react-router-component
+    description: Declarative router component for React
+    repo: https://github.com/andreypopp/react-router-component
+    docs: http://andreypopp.viewdocs.io/react-router-component
+    demo: ~
+  -
+    name: react-async
+    description: Async rendering for React components
+    repo: https://github.com/andreypopp/react-async
+    docs: http://andreypopp.viewdocs.io/react-async
+    demo: ~
+  -
+    name: react-bootstrap
+    description: Bootstrap 3 components built with React
+    repo: https://github.com/stevoland/react-bootstrap
+    docs: http://react-bootstrap.github.io/
+    demo: ~
+  -
+    name: semantic-react
+    description: Semantic components built with React
+    repo: https://github.com/DveMac/semantic-react
+    docs: ~
+    demo: ~
+  -
+    name: react-inlinesvg
+    description: An SVG loader component for ReactJS
+    repo: https://github.com/matthewwithanm/react-inlinesvg
+    docs: ~
+    demo: ~
+  -
+    name: react-infinite-scroll
+    description: An infinite scroll component for React
+    repo: https://github.com/guillaumervls/react-infinite-scroll
+    docs: ~
+    demo: ~
+  -
+    name: react-input-placeholder
+    description: Input is a small wrapper around React.DOM.input that shims in placeholder functionality for browsers that don't natively support it.
+    repo: https://github.com/enigma-io/react-input-placeholder
+    docs: ~
+    demo: ~
+  -
+    name: react-lorem-component
+    description: A component for React that renders lorem ipsum placeholder text.
+    repo: https://github.com/martinandert/react-lorem-component
+    docs: ~
+    demo: ~
+  -
+    name: react-table-sorter-demo
+    description: A React.js Table Sorter Component
+    repo: https://github.com/bgerm/react-table-sorter-demo
+    docs: ~
+    demo: http://bgerm.github.io/react-table-sorter-demo/
+
+boilerplate:
+  -
+    name: react-quickstart
+    description: React project template with server-side UI rendering and routing
+    repo: https://github.com/andreypopp/react-quickstart
+    docs: ~
+    demo: ~
+
+interface:
+  -
+    name: om
+    description: ClojureScript interface to Facebook's React
+    repo: https://github.com/swannodette/om
+    docs: https://github.com/swannodette/om/wiki/Documentation
+    demo: ~
+  -
+    name: jade-react
+    description: Compile Jade templates to React.DOM expressions
+    repo: https://github.com/duncanbeevers/jade-react
+    docs: ~
+    demo: ~
+
+data:
+  -
+    name: cortex
+    description: A javascript library for centrally managing data with React
+    repo: https://github.com/mquan/cortex
+    docs: ~
+    demo: ~
+  -
+    name: avers
+    description: ~
+    repo: https://github.com/wereHamster/avers
+    docs: ~
+    demo: ~
+
