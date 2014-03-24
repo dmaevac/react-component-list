@@ -1,0 +1,138 @@
+{"components": [
+  {
+    "name": "react-router-component",
+    "description": "Declarative router component for React",
+    "repo": "https://github.com/andreypopp/react-router-component",
+    "docs": "http://andreypopp.viewdocs.io/react-router-component",
+    "demo": null
+  },
+  {
+    "name": "react-async",
+    "description": "Async rendering for React components",
+    "repo": "https://github.com/andreypopp/react-async",
+    "docs": "http://andreypopp.viewdocs.io/react-async",
+    "demo": null
+  },
+  {
+    "name": "react-bootstrap",
+    "description": "Bootstrap 3 components built with React",
+    "repo": "https://github.com/stevoland/react-bootstrap",
+    "docs": "http://react-bootstrap.github.io/",
+    "demo": null
+  },
+  {
+    "name": "semantic-react",
+    "description": "Semantic components built with React",
+    "repo": "https://github.com/DveMac/semantic-react",
+    "docs": null,
+    "demo": null
+  },
+  {
+    "name": "react-inlinesvg",
+    "description": "An SVG loader component for ReactJS",
+    "repo": "https://github.com/matthewwithanm/react-inlinesvg",
+    "docs": null,
+    "demo": null
+  },
+  {
+    "name": "react-infinite-scroll",
+    "description": "An infinite scroll component for React",
+    "repo": "https://github.com/guillaumervls/react-infinite-scroll",
+    "docs": null,
+    "demo": null
+  },
+  {
+    "name": "react-input-placeholder",
+    "description": "Input is a small wrapper around React.DOM.input that shims in placeholder functionality for browsers that don't natively support it.",
+    "repo": "https://github.com/enigma-io/react-input-placeholder",
+    "docs": null,
+    "demo": null
+  },
+  {
+    "name": "react-lorem-component",
+    "description": "A component for React that renders lorem ipsum placeholder text.",
+    "repo": "https://github.com/martinandert/react-lorem-component",
+    "docs": null,
+    "demo": null
+  },
+  {
+    "name": "react-table-sorter-demo",
+    "description": "A React.js Table Sorter Component",
+    "repo": "https://github.com/bgerm/react-table-sorter-demo",
+    "docs": null,
+    "demo": "http://bgerm.github.io/react-table-sorter-demo/"
+  },
+  {
+    "name": "react-translate-component",
+    "description": "A component for React that utilizes the counterpart module to translate/localize its content",
+    "repo": "https://github.com/martinandert/react-translate-component",
+    "docs": null,
+    "demo": null
+  },
+  {
+    "name": "react-stylesheet",
+    "description": "A component for React to declare stylesheet dependencies for your reusable components",
+    "repo": "https://github.com/andreypopp/react-stylesheet",
+    "docs": null,
+    "demo": null
+  },
+  {
+    "name": "react-spinner",
+    "description": "Zero configuration loading spinner.",
+    "repo": "https://github.com/chenglou/react-spinner",
+    "docs": null,
+    "demo": null
+  },
+  {
+    "name": "react-time",
+    "description": "react component for rendering formatted timestamps",
+    "repo": "https://github.com/andreypopp/react-time",
+    "docs": null,
+    "demo": null
+  }
+], "boilerplate": [
+  {
+    "name": "react-quickstart",
+    "description": "React project template with server-side UI rendering and routing",
+    "repo": "https://github.com/andreypopp/react-quickstart",
+    "docs": null,
+    "demo": null
+  }
+], "interfaces": [
+  {
+    "name": "om",
+    "description": "ClojureScript interface to Facebook's React",
+    "repo": "https://github.com/swannodette/om",
+    "docs": "https://github.com/swannodette/om/wiki/Documentation",
+    "demo": null
+  },
+  {
+    "name": "jade-react",
+    "description": "Compile Jade templates to React.DOM expressions",
+    "repo": "https://github.com/duncanbeevers/jade-react",
+    "docs": null,
+    "demo": null
+  },
+  {
+    "name": "reactdown",
+    "description": "Write React components using markdown syntax",
+    "repo": "https://github.com/andreypopp/reactdown",
+    "docs": null,
+    "demo": null
+  }
+], "data": [
+  {
+    "name": "cortex",
+    "description": "A javascript library for centrally managing data with React",
+    "repo": "https://github.com/mquan/cortex",
+    "docs": null,
+    "demo": null
+  },
+  {
+    "name": "avers",
+    "description": null,
+    "repo": "https://github.com/wereHamster/avers",
+    "docs": null,
+    "demo": null
+  }
+]}

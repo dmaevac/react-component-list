@@ -1,0 +1,29 @@
+{
+  "name": "react-component-list",
+  "version": "0.0.0",
+  "description": "A list of react.js components & related projects. (in yaml format)",
+  "main": "./dist/list.json",
+  "dependencies": {
+    "yaml": "~0.2.3"
+  },
+  "devDependencies": {
+    "yamljs": "^0.1.4",
+    "request": "^2.34.0",
+    "github": "^0.1.14",
+    "rsvp": "^3.0.6"
+  },
+  "scripts": {
+    "start": "npm run build",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DveMac/react-component-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DveMac/react-component-list/issues"
+  },
+  "homepage": "https://github.com/DveMac/react-component-list"
+}

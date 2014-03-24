@@ -1,123 +1,128 @@
----
 components:
-  -
-    name: react-router-component
+  - name: react-router-component
     description: Declarative router component for React
     repo: https://github.com/andreypopp/react-router-component
     docs: http://andreypopp.viewdocs.io/react-router-component
     demo: ~
-  -
-    name: react-async
+  - name: react-async
     description: Async rendering for React components
     repo: https://github.com/andreypopp/react-async
     docs: http://andreypopp.viewdocs.io/react-async
     demo: ~
-  -
-    name: react-bootstrap
+  - name: react-bootstrap
     description: Bootstrap 3 components built with React
     repo: https://github.com/stevoland/react-bootstrap
     docs: http://react-bootstrap.github.io/
     demo: ~
-  -
-    name: semantic-react
+  - name: semantic-react
     description: Semantic components built with React
     repo: https://github.com/DveMac/semantic-react
     docs: ~
     demo: ~
-  -
-    name: react-inlinesvg
+  - name: react-topcoat
+    description: Topcoat components built with the React library
+    repo: https://github.com/plaxdan/react-topcoat
+    docs: ~
+    demo: https://github.com/plaxdan/react-topcoat-demo
+  - name: react-inlinesvg
     description: An SVG loader component for ReactJS
     repo: https://github.com/matthewwithanm/react-inlinesvg
     docs: ~
     demo: ~
-  -
-    name: react-infinite-scroll
+  - name: react-infinite-scroll
     description: An infinite scroll component for React
     repo: https://github.com/guillaumervls/react-infinite-scroll
     docs: ~
     demo: ~
-  -
-    name: react-input-placeholder
+  - name: react-input-placeholder
     description: Input is a small wrapper around React.DOM.input that shims in placeholder functionality for browsers that don't natively support it.
     repo: https://github.com/enigma-io/react-input-placeholder
     docs: ~
     demo: ~
-  -
-    name: react-lorem-component
+  - name: react-lorem-component
     description: A component for React that renders lorem ipsum placeholder text.
     repo: https://github.com/martinandert/react-lorem-component
     docs: ~
     demo: ~
-  -
-    name: react-table-sorter-demo
+  - name: react-table-sorter-demo
     description: A React.js Table Sorter Component
     repo: https://github.com/bgerm/react-table-sorter-demo
     docs: ~
     demo: http://bgerm.github.io/react-table-sorter-demo/
-  -
-    name: react-translate-component
+  - name: react-translate-component
     description: A component for React that utilizes the counterpart module to translate/localize its content
     repo: https://github.com/martinandert/react-translate-component
     docs: ~
     demo: ~
-  -
-    name: react-stylesheet
+  - name: react-stylesheet
     description: A component for React to declare stylesheet dependencies for your reusable components
     repo: https://github.com/andreypopp/react-stylesheet
     docs: ~
     demo: ~
-  -
-    name: react-spinner
+  - name: react-spinner
     description: Zero configuration loading spinner.
     repo: https://github.com/chenglou/react-spinner
     docs: ~
     demo: ~
-  -
-    name: react-time
+  - name: react-time
     description: react component for rendering formatted timestamps
     repo: https://github.com/andreypopp/react-time
     docs: ~
     demo: ~
+  - name: react-chosen
+    description: React wrapper for Chosen jQuery.
+    repo: https://github.com/chenglou/react-chosen
+    docs: ~
+    demo: ~
 
-boilerplate:
-  -
-    name: react-quickstart
+starter-kits:
+  - name: react-quickstart
     description: React project template with server-side UI rendering and routing
     repo: https://github.com/andreypopp/react-quickstart
     docs: ~
     demo: ~
+  - name: react-starter-template
+    description: React (reactjs), Gulp, Webpack, Bootstrap, LiveReload, all tied up in a bow.
+    repo: https://github.com/johnthethird/react-starter-template
+    docs: ~
+    demo: ~
+  - name: react-brunch
+    description: Adds React.js support to brunch.
+    repo: https://github.com/darthapo/react-brunch
+    docs: ~
+    demo: ~
 
 interfaces:
-  -
-    name: om
+  - name: om
     description: ClojureScript interface to Facebook's React
     repo: https://github.com/swannodette/om
     docs: https://github.com/swannodette/om/wiki/Documentation
     demo: ~
-  -
-    name: jade-react
+  - name: jade-react
     description: Compile Jade templates to React.DOM expressions
     repo: https://github.com/duncanbeevers/jade-react
     docs: ~
     demo: ~
-  -
-    name: reactdown
+  - name: reactdown
     description: Write React components using markdown syntax
     repo: https://github.com/andreypopp/reactdown
     docs: ~
     demo: ~
 
 data:
-  -
-    name: cortex
+  - name: cortex
     description: A javascript library for centrally managing data with React
     repo: https://github.com/mquan/cortex
     docs: ~
     demo: ~
-  -
-    name: avers
+  - name: avers
     description: ~
     repo: https://github.com/wereHamster/avers
     docs: ~
+    demo: ~
+  - name: backbone-react-component
+    description: Backbone.React.Component is a bridge between React and Backbone enabling data binding between models, collections and components both on the client and server sides.
+    repo: https://github.com/magalhas/backbone-react-component
+    docs: http://magalhas.github.io/backbone-react-component/
     demo: ~
 
