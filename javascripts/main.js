@@ -27,8 +27,10 @@ var Item = React.createClass({
 var List = React.createClass({
   displayName: 'List',
   render: function () {
-    var items = [];
-    d3.map(this.props.projects).forEach(function (k,v) {
+    var items = [], query = this.props.query, data = this.props.projects.filter(function (p) {
+      return !!~p.name.indexOf(query) || !!~(p.keywords || []).join().indexOf(query);
+    });
+    d3.map(data).forEach(function (k,v) {
       items.push(<Item key={k} proj={v} />)
     });
     return (<ul>{items}</ul>);
@@ -37,12 +39,18 @@ var List = React.createClass({
 
 var Cats = React.createClass({
   displayName: 'List',
+  getInitialState: function() {
+    return {value: ''};
+  },
+  handleChange: function(event) {
+    this.setState({value: event.target.value});
+  },
   render: function () {
-    var lists = [];
+    var lists = [], value = this.state.value;
     d3.map(this.props.data).forEach(function (k, v) {
-      lists.push(<li key={k}><h3>{k}</h3><List projects={v} /></li>)
+      lists.push(<li key={k}><h3>{k}</h3><List query={value} projects={v} /></li>)
     });
-    return (<div><input type="text" className="search" placeholder="Enter a keyword or project name..." /><ul>{lists}</ul></div>);
+    return (<div><input type="text" className="search" value={value} onChange={this.handleChange}  placeholder="Enter a keyword or project name..." /><ul>{lists}</ul></div>);
   }
 });
 
