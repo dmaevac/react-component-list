@@ -351,6 +351,11 @@ section ul > li > h3 {
     border-radius: 3px;
     color: white;
     font-size: 80%;
+    cursor: pointer;
+}
+
+.tag:hover {
+    color: #EEE;
 }
 
 .project {
