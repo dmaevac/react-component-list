@@ -89,6 +89,16 @@ components:
     repo: https://github.com/syranide/react-swf
     docs: ~
     demo: ~
+  - name: react-router
+    description: An integrated router for react
+    repo: https://github.com/jaredly/react-router
+    docs: ~
+    demo: ~
+  - name: newforms
+    description: An isomorphic JavaScript form-handling library for React.
+    repo: https://github.com/insin/newforms
+    docs: http://newforms.readthedocs.org/en/latest/
+    demo: ~
 
 starter-kits:
   - name: react-quickstart
@@ -104,6 +114,11 @@ starter-kits:
   - name: react-brunch
     description: Adds React.js support to brunch.
     repo: https://github.com/darthapo/react-brunch
+    docs: ~
+    demo: ~
+  - name: react-browserify-template
+    description: Quick template for building with Browserify + React.
+    repo: https://github.com/petehunt/react-browserify-template
     docs: ~
     demo: ~
 
@@ -134,6 +149,11 @@ data:
     description: A modern client-side model abstraction library
     repo: https://github.com/wereHamster/avers
     docs: http://werehamster.github.io/avers/
+    demo: ~
+  - name: react.backbone
+    description: Plugin for React to make Backbone migration easier
+    repo: https://github.com/usepropeller/react.backbone
+    docs: ~
     demo: ~
   - name: backbone-react-component
     description: Backbone.React.Component is a bridge between React and Backbone enabling data binding between models, collections and components both on the client and server sides.
