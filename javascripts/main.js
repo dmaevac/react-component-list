@@ -2,6 +2,8 @@
 /*global d3,React,moment*/
 (function () {
 
+  var resultCountStyle = { float: 'right', marginTop: '-20px', fontSize: '90%' };
+
   function getfilter(query) {
     return function (p) {
       return query.length === 0 || (!!~p.name.indexOf(query)
@@ -69,6 +71,7 @@
 
       var body = (<div>
         <input type="text" className="search" value={query} onChange={this.handleChange}  placeholder="Enter a keyword or project name..." />
+        <div style={resultCountStyle}>{items.length} result(s)</div>
         <ul>{items}</ul>
       </div>);
       var loading = <h2>Loading...</h2>;
