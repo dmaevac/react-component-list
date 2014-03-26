@@ -130,6 +130,18 @@
   docs: ~
   group: component
   demo: ~
+- name: qrcode.react
+  description: A QRCode component for use with React.
+  repo: https://github.com/zpao/qrcode.react
+  docs: ~
+  group: component
+  demo: http://zpao.github.io/qrcode.react/
+- name: RCSS
+  description: Turn your JavaScript objects into CSS classes.
+  repo: https://github.com/chenglou/RCSS
+  docs: ~
+  group: component
+  demo: ~
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
@@ -171,6 +183,18 @@
 - name: reactdown
   description: Write React components using markdown syntax
   repo: https://github.com/andreypopp/reactdown
+  docs: ~
+  group: interface
+  demo: ~
+- name: react-rails
+  description: Ruby gem for automatically transforming JSX and using React in Rails.
+  repo: https://github.com/reactjs/react-rails
+  docs: ~
+  group: interface
+  demo: ~
+- name: react-art
+  description: React Bridge to the ART Drawing Library
+  repo: https://github.com/facebook/react-art
   docs: ~
   group: interface
   demo: ~
