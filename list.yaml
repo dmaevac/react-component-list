@@ -2,165 +2,165 @@
   description: Declarative router component for React
   repo: https://github.com/andreypopp/react-router-component
   docs: http://andreypopp.viewdocs.io/react-router-component
-  group: components
+  group: component
   demo: ~
 - name: react-async
   description: Async rendering for React components
   repo: https://github.com/andreypopp/react-async
   docs: http://andreypopp.viewdocs.io/react-async
-  group: components
+  group: component
   demo: ~
 - name: react-bootstrap
   description: Bootstrap 3 components built with React
   repo: https://github.com/stevoland/react-bootstrap
   docs: http://react-bootstrap.github.io/
-  group: components
+  group: component
   demo: ~
 - name: semantic-react
   description: Semantic components built with React
   repo: https://github.com/DveMac/semantic-react
   docs: ~
-  group: components
+  group: component
   demo: ~
 - name: react-topcoat
   description: Topcoat components built with the React library
   repo: https://github.com/plaxdan/react-topcoat
   docs: ~
-  group: components
+  group: component
   demo: https://github.com/plaxdan/react-topcoat-demo
 - name: react-inlinesvg
   description: An SVG loader component for ReactJS
   repo: https://github.com/matthewwithanm/react-inlinesvg
   docs: ~
-  group: components
+  group: component
   demo: ~
 - name: react-infinite-scroll
   description: An infinite scroll component for React
   repo: https://github.com/guillaumervls/react-infinite-scroll
   docs: ~
-  group: components
+  group: component
   demo: ~
 - name: react-input-placeholder
   description: Input is a small wrapper around React.DOM.input that shims in placeholder functionality for browsers that don't natively support it.
   repo: https://github.com/enigma-io/react-input-placeholder
   docs: ~
-  group: components
+  group: component
   demo: ~
 - name: react-lorem-component
   description: A component for React that renders lorem ipsum placeholder text.
   repo: https://github.com/martinandert/react-lorem-component
   docs: ~
-  group: components
+  group: component
   demo: ~
 - name: react-table-sorter-demo
   description: A React.js Table Sorter Component
   repo: https://github.com/bgerm/react-table-sorter-demo
   docs: ~
-  group: components
+  group: component
   demo: http://bgerm.github.io/react-table-sorter-demo/
 - name: react-translate-component
   description: A component for React that utilizes the counterpart module to translate/localize its content
   repo: https://github.com/martinandert/react-translate-component
   docs: ~
-  group: components
+  group: component
   demo: ~
 - name: react-stylesheet
   description: A component for React to declare stylesheet dependencies for your reusable components
   repo: https://github.com/andreypopp/react-stylesheet
   docs: ~
-  group: components
+  group: component
   demo: ~
 - name: react-styles
   description: Utility to manage styles for React JS components
   repo: https://github.com/hedgerwang/react-styles
   docs: ~
-  group: components
+  group: component
   demo: ~
 - name: react-spinner
   description: Zero configuration loading spinner.
   repo: https://github.com/chenglou/react-spinner
   docs: ~
-  group: components
+  group: component
   demo: ~
 - name: react-time
   description: react component for rendering formatted timestamps
   repo: https://github.com/andreypopp/react-time
   docs: ~
-  group: components
+  group: component
   demo: ~
 - name: react-chosen
   description: React wrapper for Chosen jQuery.
   repo: https://github.com/chenglou/react-chosen
   docs: ~
-  group: components
+  group: component
   demo: ~
 - name: react-ago-component
   description: A component for React that renders the approximate time ago in words from a specific past date using an HTML5 time element.
   repo: https://github.com/martinandert/react-ago-component
   docs: ~
-  group: components
+  group: component
   demo: ~
 - name: react-swf
   description: Shockwave Flash Player component for React.
   repo: https://github.com/syranide/react-swf
   docs: ~
-  group: components
+  group: component
   demo: ~
 - name: react-router
   description: An integrated router for react
   repo: https://github.com/jaredly/react-router
   docs: ~
-  group: components
+  group: component
   demo: ~
 - name: newforms
   description: An isomorphic JavaScript form-handling library for React.
   repo: https://github.com/insin/newforms
   docs: http://newforms.readthedocs.org/en/latest/
-  group: components
+  group: component
   demo: ~
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
   repo: https://github.com/andreypopp/react-quickstart
   docs: ~
-  group: starter-kits
+  group: starter-kit
   demo: ~
 - name: react-starter-template
   description: React (reactjs), Gulp, Webpack, Bootstrap, LiveReload, all tied up in a bow.
   repo: https://github.com/johnthethird/react-starter-template
   docs: ~
-  group: starter-kits
+  group: starter-kit
   demo: ~
 - name: react-brunch
   description: Adds React.js support to brunch.
   repo: https://github.com/darthapo/react-brunch
   docs: ~
-  group: starter-kits
+  group: starter-kit
   demo: ~
 - name: react-browserify-template
   description: Quick template for building with Browserify + React.
   repo: https://github.com/petehunt/react-browserify-template
   docs: ~
-  group: starter-kits
+  group: starter-kit
   demo: ~
 
 - name: om
   description: ClojureScript interface to Facebook's React
   repo: https://github.com/swannodette/om
   docs: https://github.com/swannodette/om/wiki/Documentation
-  group: interfaces
+  group: interface
   demo: ~
 - name: jade-react
   description: Compile Jade templates to React.DOM expressions
   repo: https://github.com/duncanbeevers/jade-react
   docs: ~
-  group: interfaces
+  group: interface
   demo: ~
 - name: reactdown
   description: Write React components using markdown syntax
   repo: https://github.com/andreypopp/reactdown
   docs: ~
-  group: interfaces
+  group: interface
   demo: ~
 
 - name: cortex
@@ -192,5 +192,5 @@
   description: A RequireJS plugin for loading and compiling (with r.js) JavaScript files containing JSX.
   repo: https://github.com/philix/jsx-requirejs-plugin
   docs: ~
-  group: build-tools
+  group: build-tool
   demo: ~
