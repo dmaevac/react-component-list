@@ -35,12 +35,9 @@
         }
       });
       return <li className="project">
-        <a href={ this.props.proj.repo }>{ this.props.proj.name }</a>
-        <br/>
-        <i className="">{ this.props.proj.description }</i>
-        <br/>
-        <small className="">created { moment(this.props.proj.created).format("MMM Do YY") },  modified { moment(this.props.proj.modified).fromNow() }</small>
-        <br/>
+        <h3><a href={ this.props.proj.repo }>{ this.props.proj.name }</a></h3>
+        <p>{ this.props.proj.description }</p>
+        <small className="">Created { moment(this.props.proj.created).format("MMM Do YYYY") },  modified { moment(this.props.proj.modified).fromNow() }, { this.props.proj.watchers } watchers</small><br/>
           {tags}
       </li>
     }

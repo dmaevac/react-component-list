@@ -224,6 +224,7 @@ strong {
 
 small {
     font-size: 80%;
+    line-height: 2;
     color: #CCC;
 }
 
@@ -290,7 +291,7 @@ h6 {
 
 p {
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 6px;
 }
 
 a {
@@ -338,9 +339,6 @@ footer a:hover {
     color: #444;
 }
 
-section ul > li > h3 {
-    text-transform: uppercase;
-}
 
 .tag {
     text-shadow: none;
@@ -360,7 +358,7 @@ section ul > li > h3 {
 
 .project {
     display: block;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
 }
 
 input.search {
