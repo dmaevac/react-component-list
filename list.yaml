@@ -118,6 +118,12 @@
   docs: http://newforms.readthedocs.org/en/latest/
   group: component
   demo: ~
+- name: react-mediaswitch
+  description: Choose your DOM based on media queries
+  repo: https://github.com/matthewwithanm/react-mediaswitch
+  docs: ~
+  group: component
+  demo: ~
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing

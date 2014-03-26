@@ -57,7 +57,7 @@ function fetchPackageMeta(proj) {
   return new RSVP.Promise(function (resolve, reject) {
     var u, json, rej = reject.bind(null, proj);
     if ((u = url.parse(proj.repo))) {
-      var pkgUrl =  'https://' + path.join(rawdomain, u.pathname, 'master', 'package.json');
+      var pkgUrl = 'https://' + path.join(rawdomain, u.pathname, 'master', 'package.json');
       request({
         strictSSL: false,
         method: 'GET',
@@ -68,14 +68,14 @@ function fetchPackageMeta(proj) {
       }, function (err, resp, data) {
         var headers = resp && resp.headers;
         if (!err && headers && !!~headers['content-type'].indexOf(plain)) {
-          try{
+          try {
             if (data && (json = JSON.parse(data))) {
               proj.keywords = json.keywords || json.tags;
               resolve(proj);
             } else {
               resolve()
             }
-          } catch(e) {
+          } catch (e) {
             resolve();
           }
         } else {
