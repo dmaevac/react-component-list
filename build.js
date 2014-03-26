@@ -37,6 +37,7 @@ function fetchGithubMeta(proj) {
         }, function (err, data) {
           if (!err) {
             proj.modified = data.pushed_at;
+            proj.created = data.created_at;
             proj.watchers = data.watchers;
             resolve(proj);
           } else {
@@ -88,10 +89,8 @@ function fetchPackageMeta(proj) {
 }
 
 for (var c in cats) {
-  for (var p in cats[c]) {
-    promises.push(fetchGithubMeta(cats[c][p]));
-    promises.push(fetchPackageMeta(cats[c][p]));
-  }
+  promises.push(fetchGithubMeta(cats[c]));
+  promises.push(fetchPackageMeta(cats[c]));
 }
 
 RSVP.all(promises).then(function () {
