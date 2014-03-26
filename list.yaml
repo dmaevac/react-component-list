@@ -124,6 +124,12 @@
   docs: ~
   group: component
   demo: ~
+- name: react-async-input
+  description: Inputs that behave properly with async set State,Props calls
+  repo: https://github.com/grncdr/react-async-input
+  docs: ~
+  group: component
+  demo: ~
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
