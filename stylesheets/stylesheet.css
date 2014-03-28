@@ -70,10 +70,9 @@ a:hover {
 }
 
 header {
-    height: 120px;
     background: none repeat scroll 0% 0% #2D2D2D;
-    padding-top: 50px;
-    margin-bottom: 50px;
+    padding: 30px 0;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -103,76 +102,6 @@ header h2 {
     max-width: 100%;
 }
 
-#downloads {
-    margin-bottom: 40px;
-}
-
-a.button {
-    -moz-border-radius: 30px;
-    -webkit-border-radius: 30px;
-    border-radius: 30px;
-    border-top: solid 1px #cbcbcb;
-    border-left: solid 1px #b7b7b7;
-    border-right: solid 1px #b7b7b7;
-    border-bottom: solid 1px #b3b3b3;
-    color: #303030;
-    line-height: 25px;
-    font-weight: bold;
-    font-size: 15px;
-    padding: 12px 8px 12px 8px;
-    display: block;
-    float: left;
-    width: 179px;
-    margin-right: 14px;
-    background: #fdfdfd; /* Old browsers */
-    background: -moz-linear-gradient(top, #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fdfdfd), color-stop(100%, #f2f2f2)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #fdfdfd 0%, #f2f2f2 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #fdfdfd 0%, #f2f2f2 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #fdfdfd 0%, #f2f2f2 100%); /* IE10+ */
-    background: linear-gradient(top, #fdfdfd 0%, #f2f2f2 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#f2f2f2', GradientType=0); /* IE6-9 */
-    -webkit-box-shadow: 10px 10px 5px #888;
-    -moz-box-shadow: 10px 10px 5px #888;
-    box-shadow: 0px 1px 5px #e8e8e8;
-}
-
-a.button:hover {
-    border-top: solid 1px #b7b7b7;
-    border-left: solid 1px #b3b3b3;
-    border-right: solid 1px #b3b3b3;
-    border-bottom: solid 1px #b3b3b3;
-    background: #fafafa; /* Old browsers */
-    background: -moz-linear-gradient(top, #fdfdfd 0%, #f6f6f6 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fdfdfd), color-stop(100%, #f6f6f6)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #fdfdfd 0%, #f6f6f6 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #fdfdfd 0%, #f6f6f6 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #fdfdfd 0%, #f6f6f6 100%); /* IE10+ */
-    background: linear-gradient(top, #fdfdfd 0%, #f6f6f6, 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#f6f6f6', GradientType=0); /* IE6-9 */
-}
-
-a.button span {
-    padding-left: 50px;
-    display: block;
-    height: 23px;
-}
-
-#download-zip span {
-    background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
-}
-
-#download-tar-gz span {
-    background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
-}
-
-#view-on-github span {
-    background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
-}
-
-#view-on-github {
-    margin-right: 0;
-}
 
 code, pre {
     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
@@ -359,6 +288,20 @@ footer a:hover {
 .project {
     display: block;
     margin-bottom: 32px;
+}
+
+a.button {
+    background-color: black;
+    padding: 6px 12px;
+    display: inline-block;
+    color: gray;
+    width: 60px;
+    font-size: 90%;
+    border-radius: 2px;
+}
+
+a.button:hover {
+    color: white;
 }
 
 input.search {
