@@ -5,9 +5,7 @@
   "main": "dist/app.js",
   "dependencies": {
     "react": "^0.10.0",
-    "d3": "^3.4.4",
     "moment": "^2.5.1",
-    "lunr": "^0.4.5",
     "lodash": "^2.4.1"
   },
   "devDependencies": {

@@ -1,12 +1,12 @@
-
 var
-  path            = require('path'),
-  reactify        = require('reactify'),
-  jsRoot          = path.join(__dirname, 'dist'),
-  appBundlePath   = path.join(jsRoot, 'app.js'),
-  libsBundlePath  = path.join(jsRoot, 'libs.js'),
-  dependencies    = require('./package.json').dependencies,
-  external        = [];
+  path = require('path'),
+  reactify = require('reactify'),
+  distRoot = path.join(__dirname, 'dist'),
+  srcRoot = path.join(__dirname, 'scripts'),
+  appBundlePath = path.join(distRoot, 'app.js'),
+  libsBundlePath = path.join(distRoot, 'libs.js'),
+  dependencies = require('./package.json').dependencies,
+  external = [];
 
 for (var k in  dependencies) {
   if (dependencies.hasOwnProperty(k)) {
@@ -30,7 +30,7 @@ module.exports = function (grunt) {
       },
 
       app: {
-        src: ['./scripts/entry.js'],
+        src: [srcRoot + '/entry.js'],
         dest: appBundlePath,
         options: {
           external: external,
@@ -51,7 +51,7 @@ module.exports = function (grunt) {
       },
 
       app: {
-        files: ['./Gruntfile.js', './*.html', './stylesheets/*.css', './scripts/**/*.js'],
+        files: ['./Gruntfile.js', './*.html', './stylesheets/*.css', srcRoot + '/**/*.js'],
         tasks: ['browserify:app'],
         options: {
           debounceDelay: 250,
@@ -66,6 +66,7 @@ module.exports = function (grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-browserify');
-  grunt.registerTask('default', ['browserify', 'watch']);
+  grunt.registerTask('build', ['browserify']);
+  grunt.registerTask('default', ['build']);
 
 };

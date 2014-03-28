@@ -15,7 +15,8 @@ module.exports = React.createClass({
     var tags = _(keywords)
       .filter(function (v) { return !~blacklist.indexOf(v); })
       .uniq()
-      .map(function (v) { return (<Tag key={v} name={v} />); });
+      .map(function (v) { return (<Tag key={v} name={v} />); })
+      .value();
 
     return (<li className="project">
       <h3>

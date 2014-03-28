@@ -1,22 +1,23 @@
 /** @jsx React.DOM */
 var React = require('react');
-var d3 = require('d3');
+var _ = require('lodash');
 var Item = require('./item.react');
 
 var resultCountStyle = { float: 'right', marginTop: '-20px', fontSize: '80%' };
 
 function getfilter(query) {
   return function (p) {
-    return query.length === 0 || (!!~p.name.indexOf(query)
-      || !!~p.group.indexOf(query)
-      || !!~(p.keywords || []).join().indexOf(query));
-  }
+    return query.length === 0 ||
+      (!!~p.name.indexOf(query) ||
+        !!~p.group.indexOf(query) ||
+        !!~(p.keywords || []).join().indexOf(query));
+  };
 }
 
 function getDateSort(field) {
   return function (a, b) {
     return new Date(b[field]).getTime() - new Date(a[field]).getTime();
-  }
+  };
 }
 
 module.exports = React.createClass({
@@ -34,16 +35,14 @@ module.exports = React.createClass({
   },
 
   render: function () {
-    var items = [],
-      query = this.state.query === null ? this.props.query : this.state.query,
-      sort = this.state.sort === null ? this.props.sort : this.state.sort,
-      data = (this.props.data || [])
-        .filter(getfilter(query))
-        .sort(getDateSort(sort));
+    var query = this.state.query === null ? this.props.query : this.state.query,
+      sort = this.state.sort === null ? this.props.sort : this.state.sort;
 
-    d3.map(data).forEach(function (k, v) {
-      items.push(<Item key={k} proj={v} />);
-    });
+    var items = _(this.props.data || [])
+      .filter(getfilter(query))
+      .sort(getDateSort(sort))
+      .map(function (v, k) { return (<Item key={k} proj={v} />); })
+      .value();
 
     return !this.props.data
       ? (<h2>Loading...</h2>)
