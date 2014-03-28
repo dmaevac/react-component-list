@@ -142,6 +142,18 @@
   docs: ~
   group: component
   demo: ~
+- name: react-pushstate-mixin
+  description: React mixin for History API support
+  repo: https://github.com/SanderSpies/react-pushstate-mixin
+  docs: ~
+  group: component
+  demo: ~
+- name: react-maps
+  description: ~
+  repo: https://github.com/matnel/react-maps
+  docs: ~
+  group: component
+  demo: ~
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
@@ -198,6 +210,18 @@
   docs: ~
   group: interface
   demo: ~
+- name: ngReact
+  description: Use React Components in Angular
+  repo: https://github.com/davidchang/ngReact
+  docs: http://davidchang.github.io/ngReact/
+  group: interface
+  demo: ~
+- name: react-kup
+  description: react-kup is a simple, non-intrusive alternative to jsx for coffeescript
+  repo: https://github.com/snd/react-kup
+  docs: ~
+  group: interface
+  demo: ~
 
 - name: cortex
   description: A javascript library for centrally managing data with React
@@ -227,6 +251,30 @@
 - name: jsx-requirejs-plugin
   description: A RequireJS plugin for loading and compiling (with r.js) JavaScript files containing JSX.
   repo: https://github.com/philix/jsx-requirejs-plugin
+  docs: ~
+  group: build-tool
+  demo: ~
+- name: broccoli-react
+  description: Broccoli preprocessor for React JSX
+  repo: https://github.com/eddhannay/broccoli-react
+  docs: ~
+  group: build-tool
+  demo: ~
+- name: mimosa-react
+  description: A JSX compiler for Mimosa
+  repo: https://github.com/dbashford/mimosa-react
+  docs: ~
+  group: build-tool
+  demo: ~
+- name: grunt-react
+  description: Grunt task for compiling Facebook React's .jsx templates into .js
+  repo: https://github.com/ericclemmons/grunt-react
+  docs: ~
+  group: build-tool
+  demo: ~
+- name: fez-react
+  description: Transform React JSX using Fez
+  repo: https://github.com/sabberworm/fez-react
   docs: ~
   group: build-tool
   demo: ~
