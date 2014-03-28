@@ -222,6 +222,12 @@
   docs: ~
   group: interface
   demo: ~
+- name: ogre-js
+  description: Object graph manager, built with ReactJS in mind.
+  repo: https://github.com/elucidata/ogre.js
+  docs: ~
+  group: interface
+  demo: ~
 
 - name: cortex
   description: A javascript library for centrally managing data with React
@@ -275,6 +281,12 @@
 - name: fez-react
   description: Transform React JSX using Fez
   repo: https://github.com/sabberworm/fez-react
+  docs: ~
+  group: build-tool
+  demo: ~
+- name: JSXHint
+  description: A wrapper around JSHint to allow linting of files containg JSX syntax
+  repo: https://github.com/STRML/JSXHint
   docs: ~
   group: build-tool
   demo: ~
