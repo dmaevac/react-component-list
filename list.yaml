@@ -234,6 +234,12 @@
   docs: ~
   group: interface
   demo: ~
+- name: express-react-views
+  description: This is an Express view engine which renders React components on server. It renders static markup and *does not* support mounting those views on the client.
+  repo: https://github.com/reactjs/express-react-views
+  docs: ~
+  group: interface
+  demo: ~
 
 - name: cortex
   description: A javascript library for centrally managing data with React
