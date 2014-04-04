@@ -160,6 +160,12 @@
   docs: ~
   group: component
   demo: ~
+- name: formjs
+  description: A form generator for Reactjs "Alpachajs for React" Open the inspector on the demo page
+  repo: https://github.com/zackify/formjs
+  docs: ~
+  group: component
+  demo: http://procoder.io/formjs/
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
