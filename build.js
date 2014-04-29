@@ -67,7 +67,8 @@ function fetchPackageMeta(proj) {
         }
       }, function (err, resp, data) {
         var headers = resp && resp.headers;
-        if (!err && headers && !!~headers['content-type'].indexOf(plain)) {
+        var ct = resp && headers && !!~headers['content-type'];
+        if (!err) {
           try {
             if (data && (json = JSON.parse(data))) {
               proj.keywords = json.keywords || json.tags;
