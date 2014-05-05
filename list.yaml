@@ -166,6 +166,18 @@
   docs: ~
   group: component
   demo: http://procoder.io/formjs/
+- name: react-forms
+  description: Forms library for React
+  repo: https://github.com/prometheusresearch/react-forms
+  docs: http://prometheusresearch.github.io/react-forms/documentation/
+  group: component
+  demo: http://prometheusresearch.github.io/react-forms/examples/family-editor.html
+- name: react-grid
+  description: ~
+  repo: https://github.com/prometheusresearch/react-grid
+  docs: ~
+  group: component
+  demo: ~
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
