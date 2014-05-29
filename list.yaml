@@ -142,12 +142,6 @@
   docs: ~
   group: component
   demo: ~
-- name: react-pushstate-mixin
-  description: React mixin for History API support
-  repo: https://github.com/SanderSpies/react-pushstate-mixin
-  docs: ~
-  group: component
-  demo: ~
 - name: react-maps
   description: ~
   repo: https://github.com/matnel/react-maps
