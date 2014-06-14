@@ -349,6 +349,12 @@
   docs: http://magalhas.github.io/backbone-react-component/
   group: data
   demo: ~
+- name: fluxxor
+  description: A library for implementing flux-based data layers
+  repo: https://github.com/BinaryMuse/fluxxor
+  docs: http://fluxxor.com/
+  group: data
+  demo: http://fluxxor.com/getting-started/quick-start.html
 
 - name: jsx-requirejs-plugin
   description: A RequireJS plugin for loading and compiling (with r.js) JavaScript files containing JSX.
