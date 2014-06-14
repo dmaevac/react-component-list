@@ -178,6 +178,60 @@
   docs: ~
   group: component
   demo: ~
+- name: react-sortable
+  description: Reusable ReactJS component for rendering a list of events from a google calendar.
+  repo: https://github.com/danielstocks/react-sortable
+  docs: ~
+  group: component
+  demo: ~
+- name: react-components
+  description: reusable components by Khan Academy
+  repo: https://github.com/Khan/react-components
+  docs: http://khan.github.io/react-components/
+  group: component
+  demo: ~
+- name: react-frame-component
+  description: Render your React app to an iFrame
+  repo: https://github.com/ryanseddon/react-frame-component
+  docs: ~
+  group: component
+  demo: http://ryanseddon.github.io/react-frame-component/
+- name: react-datepicker
+  description: Datepicker component for application using Facebook React
+  repo: https://github.com/misino/react-datepicker
+  docs: ~
+  group: component
+  demo: ~
+- name: react-pokemon
+  description: A React component for displaying Pokemon
+  repo: https://github.com/passy/react-pokemon
+  docs: ~
+  group: component
+  demo: http://passy.github.io/react-pokemon
+- name: react-ellipsis
+  description: Ellipsis component for React
+  repo: https://github.com/guillaumervls/react-ellipsis
+  docs: ~
+  group: component
+  demo: ~
+- name: ReactiveElements
+  description: Allows to use React.js component as HTML element
+  repo: https://github.com/PixelsCommander/ReactiveElements
+  docs: ~
+  group: component
+  demo: ~
+- name: regular
+  description: regular = react(component) + angular(expression)
+  repo: https://github.com/regularjs/regular
+  docs: ~
+  group: component
+  demo: ~
+- name: react-semantic-ui
+  description: React components for semantic-ui
+  repo: https://github.com/jhudson8/react-semantic-ui
+  docs: ~
+  group: component
+  demo: ~
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
@@ -200,6 +254,12 @@
 - name: react-browserify-template
   description: Quick template for building with Browserify + React.
   repo: https://github.com/petehunt/react-browserify-template
+  docs: ~
+  group: starter-kit
+  demo: ~
+- name: react.io
+  description: Small experiment to see how easy it is to synchronize React.js components using Socket.io.
+  repo: https://github.com/Enome/react.io
   docs: ~
   group: starter-kit
   demo: ~
@@ -255,6 +315,12 @@
 - name: express-react-views
   description: This is an Express view engine which renders React components on server. It renders static markup and *does not* support mounting those views on the client.
   repo: https://github.com/reactjs/express-react-views
+  docs: ~
+  group: interface
+  demo: ~
+- name: react-events
+  description: Declarative managed event bindings for react components
+  repo: https://github.com/jhudson8/react-events
   docs: ~
   group: interface
   demo: ~
@@ -317,6 +383,18 @@
 - name: JSXHint
   description: A wrapper around JSHint to allow linting of files containg JSX syntax
   repo: https://github.com/STRML/JSXHint
+  docs: ~
+  group: build-tool
+  demo: ~
+- name: react-coffee
+  description: Build React components using natural CoffeeScript syntax.
+  repo: https://github.com/elucidata/react-coffee
+  docs: ~
+  group: build-tool
+  demo: ~
+- name: react-pad
+  description: Authoring tool for React components
+  repo: https://github.com/andreypopp/react-pad
   docs: ~
   group: build-tool
   demo: ~
