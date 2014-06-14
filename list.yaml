@@ -12,7 +12,7 @@
   demo: ~
 - name: react-bootstrap
   description: Bootstrap 3 components built with React
-  repo: https://github.com/stevoland/react-bootstrap
+  repo: https://github.com/react-bootstrap/react-bootstrap
   docs: http://react-bootstrap.github.io/
   group: component
   demo: ~
@@ -169,6 +169,12 @@
 - name: react-grid
   description: ~
   repo: https://github.com/prometheusresearch/react-grid
+  docs: ~
+  group: component
+  demo: ~
+- name: react-google-calendar-events-list
+  description: Reusable ReactJS component for rendering a list of events from a google calendar.
+  repo: https://github.com/VinSpee/react-gcal-events-list
   docs: ~
   group: component
   demo: ~
