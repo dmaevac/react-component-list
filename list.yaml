@@ -232,6 +232,12 @@
   docs: ~
   group: component
   demo: ~
+- name: react-markdown-textarea
+  description: Component for React to create textareas for entering Markdown with built-in preview inspired by Github's design
+  repo: https://github.com/KyleAMathews/react-markdown-textarea
+  docs: http://kyleamathews.github.io/react-markdown-textarea/
+  group: component
+  demo: ~
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
