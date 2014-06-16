@@ -10,7 +10,8 @@ http://dvemac.github.io/react-component-list/
 
 ```
 npm install
-npm run build // builds json file
+npm run build       #builds json file
+npm run publish     #publishes
 ```
 
 ###Contrib

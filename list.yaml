@@ -330,6 +330,12 @@
   docs: ~
   group: interface
   demo: ~
+- name: jasmine-react
+  description: Unit test your React.js applications with Jasmine
+  repo: https://github.com/tommyh/jasmine-react
+  docs: ~
+  group: interface
+  demo: ~
 
 - name: cortex
   description: A javascript library for centrally managing data with React
