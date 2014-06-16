@@ -238,6 +238,12 @@
   docs: http://kyleamathews.github.io/react-markdown-textarea/
   group: component
   demo: ~
+- name: react-tags
+  description: A simple wrapper around React.DOM
+  repo: https://github.com/adelevie/react-tags
+  docs: ~
+  group: component
+  demo: ~
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
@@ -266,6 +272,12 @@
 - name: react.io
   description: Small experiment to see how easy it is to synchronize React.js components using Socket.io.
   repo: https://github.com/Enome/react.io
+  docs: ~
+  group: starter-kit
+  demo: ~
+- name: react-webpack
+  description: react + webpack project template
+  repo: https://github.com/ThomasDeutsch/react-webpack
   docs: ~
   group: starter-kit
   demo: ~
