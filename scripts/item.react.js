@@ -23,8 +23,8 @@ module.exports = React.createClass({
         <a href={ this.props.proj.repo }>{ this.props.proj.name }</a>
       </h3>
       <p>{ this.props.proj.description }</p>
-      <small className="">Created { moment(this.props.proj.created).format("MMM Do YYYY") },
-        modified { moment(this.props.proj.modified).fromNow() },
+      <small className="">Created { moment(this.props.proj.created).format("MMM Do YYYY") },&nbsp;
+      modified { moment(this.props.proj.modified).fromNow() },&nbsp;
         { this.props.proj.watchers } watchers
       </small>
       <br/>
