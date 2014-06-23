@@ -15,10 +15,16 @@ function getfilter(query) {
   };
 }
 
-function getDateSort(field) {
-  return function (a, b) {
-    return new Date(b[field]).getTime() - new Date(a[field]).getTime();
+function getSort(field) {
+
+  if (field === 'watchers') return function (a, b) {
+    return b[field] - a[field]
   };
+
+  return  function (a, b) {
+    return new Date(b[field]).getTime() - new Date(a[field]).getTime();
+  }
+
 }
 
 module.exports = React.createClass({displayName: 'exports',
@@ -41,7 +47,7 @@ module.exports = React.createClass({displayName: 'exports',
 
     var items = _(this.props.data || [])
       .filter(getfilter(query))
-      .sort(getDateSort(sort))
+      .sort(getSort(sort))
       .map(function (v, k) { return (Item( {key:k, proj:v} )); })
       .value();
 
@@ -50,6 +56,7 @@ module.exports = React.createClass({displayName: 'exports',
       : (React.DOM.div(null, 
           React.DOM.input( {type:"text", className:"search", value:query, onChange:this.handleChange,
           placeholder:"Enter a keyword or project name..."} ),
+          React.DOM.a( {onClick:this.setState.bind(null, { sort: 'watchers' })}, "watchers"),
      query ?
           React.DOM.div( {style:resultCountStyle}, items.length, " result(s)")
       : false, 
@@ -110,8 +117,8 @@ module.exports = React.createClass({
         React.DOM.a( {href: this.props.proj.repo },  this.props.proj.name )
       ),
       React.DOM.p(null,  this.props.proj.description ),
-      React.DOM.small( {className:""}, "Created ",  moment(this.props.proj.created).format("MMM Do YYYY"), ","+' '+
-        "modified ",  moment(this.props.proj.modified).fromNow(), ",",
+      React.DOM.small( {className:""}, "Created ",  moment(this.props.proj.created).format("MMM Do YYYY"), ", "+' '+
+      "modified ",  moment(this.props.proj.modified).fromNow(), ", ",
          this.props.proj.watchers,  " watchers"
       ),
       React.DOM.br(null),
@@ -132,4 +139,4 @@ module.exports = React.createClass({displayName: 'exports',
   }
 
 });
-},{"react":"M6d2gk"}]},{},[2]);
+},{"react":"M6d2gk"}]},{},[2])
