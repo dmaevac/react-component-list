@@ -55,7 +55,6 @@ module.exports = React.createClass({
       : (<div>
           <input type="text" className="search" value={query} onChange={this.handleChange}
           placeholder="Enter a keyword or project name..." />
-          <a onClick={this.setState.bind(null, { sort: 'watchers' })}>watchers</a>
     { query ?
           <div style={resultCountStyle}>{items.length} result(s)</div>
       : false }
