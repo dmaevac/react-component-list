@@ -250,6 +250,12 @@
   docs: ~
   group: component
   demo: ~
+- name: react-proxy-loader
+  description: Wraps a react component in a proxy component to enable Hot Module Replacement and Code Splitting.
+  repo: https://github.com/webpack/react-proxy-loader
+  docs: ~
+  group: component
+  demo: ~
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
