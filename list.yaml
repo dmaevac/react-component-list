@@ -360,6 +360,12 @@
   docs: ~
   group: interface
   demo: ~
+- name: react-bacon
+  description: A little module for using React with Bacon.js
+  repo: https://github.com/jamesmacaulay/react-bacon
+  docs: ~
+  group: interface
+  demo: ~
 
 - name: cortex
   description: A javascript library for centrally managing data with React
