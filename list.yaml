@@ -274,6 +274,18 @@
   docs: ~
   group: component
   demo: https://jed.github.io/react-swipe/demo
+- name: reflux
+  description: A simple library for uni-directional dataflow application architecture inspired by ReactJS Flux
+  repo: https://github.com/spoike/reflux
+  docs: ~
+  group: component
+  demo: ~
+- name: fluxy
+  description: An implementation of Facebook's Flux architecture
+  repo: https://github.com/jmreidy/fluxy
+  docs: ~
+  group: component
+  demo: ~
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
