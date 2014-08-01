@@ -256,6 +256,24 @@
   docs: ~
   group: component
   demo: ~
+- name: react-router
+  description: A complete routing solution for React.js
+  repo: https://github.com/rackt/react-router
+  docs: https://github.com/rackt/react-router/blob/master/docs/api
+  group: component
+  demo: ~
+- name: react-interpolate-component
+  description: A component for React that renders elements into a format string containing replacement fields.
+  repo: https://github.com/martinandert/react-interpolate-component
+  docs: ~
+  group: component
+  demo: ~
+- name: react-swipe
+  description: Brad Birdsall's swipe.js, as a React component
+  repo: https://github.com/jed/react-swipe
+  docs: ~
+  group: component
+  demo: https://jed.github.io/react-swipe/demo
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
@@ -366,6 +384,12 @@
   docs: ~
   group: interface
   demo: ~
+- name: react-page-middleware
+  description: Connect/Express middleware to use React to generate whole websites
+  repo: https://github.com/reactjs/react-page-middleware
+  docs: ~
+  group: interface
+  demo: ~
 
 - name: cortex
   description: A javascript library for centrally managing data with React
@@ -443,6 +467,24 @@
 - name: react-pad
   description: Authoring tool for React components
   repo: https://github.com/andreypopp/react-pad
+  docs: ~
+  group: build-tool
+  demo: ~
+- name: react-starter
+  description: Starter template for React with webpack
+  repo: https://github.com/webpack/react-starter
+  docs: ~
+  group: build-tool
+  demo: ~
+- name: react-hot-loader
+  description: Webpack loader that enables live-editing React components without unmounting or losing their state
+  repo: https://github.com/gaearon/react-hot-loader
+  docs: ~
+  group: build-tool
+  demo: ~
+- name: react-jade
+  description: Compile Jade to React JavaScript
+  repo: https://github.com/ForbesLindesay/react-jade
   docs: ~
   group: build-tool
   demo: ~
