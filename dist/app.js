@@ -115,7 +115,9 @@ module.exports = React.createClass({
       React.DOM.h3(null, 
         React.DOM.a( {href: this.props.proj.repo },  this.props.proj.name )
       ),
-      React.DOM.p(null,  this.props.proj.description ),
+      React.DOM.p(null,  this.props.proj.description, 
+      this.props.proj.demo ? React.DOM.a( {target:"_blank", href:this.props.proj.demo}, "(DEMO)")  : ''
+      ),
       React.DOM.small( {className:""}, "Created ",  moment(this.props.proj.created).format("MMM Do YYYY"), ", "+' '+
       "modified ",  moment(this.props.proj.modified).fromNow(), ", ",
          this.props.proj.watchers,  " watchers"
