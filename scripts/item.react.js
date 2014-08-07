@@ -21,9 +21,10 @@ module.exports = React.createClass({
     return (<li className="project">
       <h3>
         <a href={ this.props.proj.repo }>{ this.props.proj.name }</a>
+          {this.props.proj.demo ? <small>&nbsp;<a target="_blank" href={this.props.proj.demo}>(DEMO)</a></small>  : ''}
       </h3>
       <p>{ this.props.proj.description }
-      {this.props.proj.demo ? <a target="_blank" href={this.props.proj.demo}>(DEMO)</a>  : ''}
+
       </p>
       <small className="">Created { moment(this.props.proj.created).format("MMM Do YYYY") },&nbsp;
       modified { moment(this.props.proj.modified).fromNow() },&nbsp;
