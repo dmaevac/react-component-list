@@ -526,7 +526,7 @@
   group: build-tool
   demo: ~
 - name: react-starter
-  description: Starter template for React with webpack
+  description: Starter template for React with webpack.
   repo: https://github.com/webpack/react-starter
   docs: ~
   group: build-tool
