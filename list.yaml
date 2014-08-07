@@ -293,7 +293,7 @@
   group: component
   demo: http://kyleamathews.github.io/react-gravatar/examples/
 - name: react-smart-time-ago
-  description: Show relative "time ago" dates for anything in last two weeks and absolute dates from then on back
+  description: Show relative time ago dates for anything in last two weeks and absolute dates from then on back
   repo: https://github.com/KyleAMathews/react-smart-time-ago
   docs: ~
   group: component
