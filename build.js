@@ -28,6 +28,7 @@ github.authenticate(auth);
 function fetchGithubMeta(proj) {
   return new RSVP.Promise(function (resolve, reject) {
     var u;
+    console.log("Fetching github meta", proj);
     if ((u = url.parse(proj.repo))) {
       var parts = u.pathname.split('/');
       if (parts.length === 3) {
@@ -56,6 +57,7 @@ function fetchGithubMeta(proj) {
 function fetchPackageMeta(proj) {
   return new RSVP.Promise(function (resolve, reject) {
     var u, json, rej = reject.bind(null, proj);
+    console.log("Fetching metadata", proj);
     if ((u = url.parse(proj.repo))) {
       var pkgUrl = 'https://' + path.join(rawdomain, u.pathname, 'master', 'package.json');
       request({

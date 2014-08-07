@@ -274,6 +274,48 @@
   docs: ~
   group: component
   demo: https://jed.github.io/react-swipe/demo
+- name: react-autoupdate-time
+  description: Renders a time element that autoupdates at a configurable interval
+  repo: https://github.com/KyleAMathews/react-autoupdate-time
+  docs: ~
+  group: component
+  demo: ~
+- name: react-datalist
+  description:
+  repo: https://github.com/asbjornenge/react-datalist
+  docs: ~
+  group: component
+  demo: http://www.asbjornenge.com/react-datalist/
+- name: react-gravatar
+  description:
+  repo: https://github.com/KyleAMathews/react-gravatar
+  docs: ~
+  group: component
+  demo: http://kyleamathews.github.io/react-gravatar/examples/
+- name: react-smart-time-ago
+  description: Show relative "time ago" dates for anything in last two weeks and absolute dates from then on back
+  repo: https://github.com/KyleAMathews/react-smart-time-ago
+  docs: ~
+  group: component
+  demo: ~
+- name: react-frozenhead
+  description: Make your whole page a React component and render it on the server
+  repo: https://github.com/matthewwithanm/react-frozenhead
+  docs: ~
+  group: component
+  demo: ~
+- name: react-imageloader
+  description: A React component for wrangling image loading
+  repo: https://github.com/hzdg/react-imageloader
+  docs: ~
+  group: component
+  demo: ~
+- name: react-scroll-components
+  description: A set of components that react to page scrolling
+  repo: https://github.com/jeroencoumans/react-scroll-components
+  docs: ~
+  group: component
+  demo: ~
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
