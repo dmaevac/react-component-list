@@ -316,6 +316,60 @@
   docs: ~
   group: component
   demo: ~
+- name: react-widgets
+  description: set of stateless ui widgets for React
+  repo: https://github.com/theporchrat/react-widgets
+  docs: http://theporchrat.github.io/react-widgets/docs/
+  group: component
+  demo: ~
+- name: react-checkboxlist
+  description: React component to create a list of checkboxes.
+  repo: https://github.com/joshwnj/react-checkboxlist
+  docs: ~
+  group: component
+  demo: ~
+- name: react-sparkline
+  description: React component for rendering simple sparklines
+  repo: https://github.com/KyleAMathews/react-sparkline
+  docs: ~
+  group: component
+  demo: ~
+- name: react-micro-bar-chart
+  description: React component for micro bar-charts rendered with D3
+  repo: https://github.com/KyleAMathews/react-micro-bar-chart
+  docs: ~
+  group: component
+  demo: ~
+- name: monorouter
+  description: An isomorphic JS router
+  repo: https://github.com/matthewwithanm/monorouter
+  docs: ~
+  group: component
+  demo: ~
+- name: react-anchor
+  description: Functional factory to create react anchor components
+  repo: https://github.com/yoshuawuyts/react-anchor
+  docs: ~
+  group: component
+  demo: ~
+- name: react-fa
+  description: Font Awesome icons as React components
+  repo: https://github.com/andreypopp/react-fa
+  docs: ~
+  group: component
+  demo: ~
+- name: react-textarea-autosize
+  description: textarea component for React which grows with content
+  repo: https://github.com/andreypopp/react-textarea-autosize
+  docs: ~
+  group: component
+  demo: ~
+- name: react-simple-table
+  description: For when you just want a table
+  repo: https://github.com/KyleAMathews/react-simple-table
+  docs: ~
+  group: component
+  demo: ~
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
