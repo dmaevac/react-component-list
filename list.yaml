@@ -535,7 +535,12 @@
   docs: ~
   group: data
   demo: ~
-
+- name: react-clickdrag-mixin
+  description: ClickDrag mixin for React component
+  repo: https://github.com/tleunen/react-clickdrag-mixin
+  docs: ~
+  group: data
+  demo: ~
 
 - name: jsx-requirejs-plugin
   description: A RequireJS plugin for loading and compiling (with r.js) JavaScript files containing JSX.
