@@ -1,7 +1,6 @@
 - name: react-router-component
   description: Declarative router component for React
-  repo: https://github.com/andreypopp/react-router-component
-  docs: http://andreypopp.viewdocs.io/react-router-component
+  repo: https://github.com/STRML/react-router-component
   group: component
   demo: ~
 - name: react-async
@@ -244,12 +243,6 @@
   docs: ~
   group: component
   demo: ~
-- name: react-google-maps
-  description: React interface to Google maps
-  repo: https://github.com/pieterv/react-google-maps
-  docs: ~
-  group: component
-  demo: ~
 - name: react-proxy-loader
   description: Wraps a react component in a proxy component to enable Hot Module Replacement and Code Splitting.
   repo: https://github.com/webpack/react-proxy-loader
@@ -318,8 +311,7 @@
   demo: ~
 - name: react-widgets
   description: set of stateless ui widgets for React
-  repo: https://github.com/theporchrat/react-widgets
-  docs: http://theporchrat.github.io/react-widgets/docs/
+  repo: https://github.com/jquense/react-widgets
   group: component
   demo: ~
 - name: react-checkboxlist
@@ -440,7 +432,7 @@
   demo: ~
 - name: react-art
   description: React Bridge to the ART Drawing Library
-  repo: https://github.com/facebook/react-art
+  repo: https://github.com/reactjs/react-art
   docs: ~
   group: interface
   demo: ~
@@ -507,7 +499,7 @@
   demo: ~
 - name: react.backbone
   description: Plugin for React to make Backbone migration easier
-  repo: https://github.com/usepropeller/react.backbone
+  repo: https://github.com/clayallsopp/react.backbone
   docs: ~
   group: data
   demo: ~
@@ -525,7 +517,7 @@
   demo: http://fluxxor.com/getting-started/quick-start.html
 - name: reflux
   description: A simple library for uni-directional dataflow application architecture inspired by ReactJS Flux
-  repo: https://github.com/spoike/reflux
+  repo: https://github.com/spoike/refluxjs
   docs: ~
   group: data
   demo: ~
@@ -604,7 +596,7 @@
   demo: ~
 - name: react-jade
   description: Compile Jade to React JavaScript
-  repo: https://github.com/ForbesLindesay/react-jade
+  repo: https://github.com/jadejs/react-jade
   docs: ~
   group: build-tool
   demo: ~
