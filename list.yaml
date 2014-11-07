@@ -370,6 +370,12 @@
   docs: ~
   group: component
   demo: ~
+- name: react-number-editor
+  description: Number editor (textfield) component for react
+  repo: https://github.com/tleunen/react-number-editor
+  docs: ~
+  group: component
+  demo: ~
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
@@ -529,7 +535,12 @@
   docs: ~
   group: data
   demo: ~
-
+- name: react-clickdrag-mixin
+  description: ClickDrag mixin for React component
+  repo: https://github.com/tleunen/react-clickdrag-mixin
+  docs: ~
+  group: data
+  demo: ~
 
 - name: jsx-requirejs-plugin
   description: A RequireJS plugin for loading and compiling (with r.js) JavaScript files containing JSX.
