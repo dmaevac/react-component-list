@@ -12,7 +12,7 @@
   "scripts": {
     "start": "npm run build",
     "build": "node build.js",
-    "publish": "git checkout gh-pages && git checkout master -- ./dist/list.json && git commit -a -m \"Updated data\" && git push && git checkout master"
+    "publish": "git checkout gh-pages && git pull && git checkout master -- ./dist/list.json && git commit -a -m \"Updated data\" && git push && git checkout master"
   },
   "repository": {
     "type": "git",
