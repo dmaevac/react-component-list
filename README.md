@@ -11,6 +11,7 @@ http://dvemac.github.io/react-component-list/
 ```
 npm install
 npm run build       #builds json file
+git commit -am "Updated list"
 npm run publish     #publish to gh-pages branch && push
 ```
 
