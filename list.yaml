@@ -368,6 +368,114 @@
   docs: ~
   group: component
   demo: ~
+- name: react-crouton
+  description: A message component for reactjs
+  repo: https://github.com/xeodou/react-crouton
+  docs: ~
+  group: component
+  demo: http://xeodou.github.io/react-crouton
+- name: react-proxy-loader
+  description: Wraps a react component in a proxy component to enable Code Splitting.
+  repo: https://github.com/webpack/react-proxy-loader
+  docs: ~
+  group: component
+  demo: ~
+- name: react-controlfacades
+  description: Style form controls but use their default behavior
+  repo: https://github.com/hzdg/react-controlfacades
+  docs: ~
+  group: component
+  demo: ~
+- name: react-pressable
+  description: Add onRelease, onReleaseInside, onReleaseOutside, and onPress events to a component
+  repo: https://github.com/hzdg/react-pressable
+  docs: ~
+  group: component
+  demo: ~
+- name: reactdi
+  description: Dependency injection for ReactJS components.
+  repo: https://github.com/hzdg/reactdi
+  docs: ~
+  group: component
+  demo: ~
+- name: react-anything-sortable
+  description: A ReactJS component that can sort any children with IE8 compatibility
+  repo: https://github.com/jasonslyvia/react-anything-sortable
+  docs: ~
+  group: component
+  demo: ~
+- name: react-fullscreen-component
+  description: Simple component that let's you create fullscreen toggles
+  repo: https://github.com/jeroencoumans/react-fullscreen-component
+  docs: ~
+  group: component
+  demo: ~
+- name: react-pillbox
+  description: Pillbox component for React
+  repo: https://github.com/redbadger/react-pillbox
+  docs: ~
+  group: component
+  demo: ~
+- name: react-ladda
+  description: React wrapper for Ladda buttons.
+  repo: https://github.com/jsdir/react-ladda
+  docs: ~
+  group: component
+  demo: ~
+- name: olay-react
+  description: Olay implemented as a React component.
+  repo: https://github.com/orgsync/olay-react
+  docs: ~
+  group: component
+  demo: ~
+- name: react-dnd
+  description: Flexible HTML5 drag-and-drop mixin for React with full DOM control
+  repo: https://github.com/gaearon/react-dnd
+  docs: ~
+  group: component
+  demo: ~
+- name: react-kaomoji
+  description: A React component for displaying Japanese emoticons
+  repo: https://github.com/enaqx/react-kaomoji
+  docs: ~
+  group: component
+  demo: ~
+- name: react-calendar
+  description: Calendar that inspired by React philosophy
+  repo: https://github.com/Aetet/react-calendar
+  docs: ~
+  group: component
+  demo: ~
+- name: react-layout
+  description: Dynamic subview layout for React
+  repo: https://github.com/jsdf/react-layout
+  docs: ~
+  group: component
+  demo: ~
+- name: react-spinkit
+  description: A collection of loading indicators animated with CSS for React
+  repo: https://github.com/KyleAMathews/react-spinkit
+  docs: ~
+  group: component
+  demo: ~
+- name: react.animate
+  description: state animation plugin for react.js
+  repo: https://github.com/pleasetrythisathome/react.animate
+  docs: ~
+  group: component
+  demo: ~
+- name: react-video
+  description: React component to load video from Vimeo or Youtube across any device.
+  repo: https://github.com/pedronauck/react-video
+  docs: ~
+  group: component
+  demo: ~
+- name: flux-router-component
+  description: React components and mixins for router related features that work for applications with Flux architecture
+  repo: https://github.com/yahoo/flux-router-component
+  docs: ~
+  group: component
+  demo: ~
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
@@ -405,6 +513,36 @@
   docs: ~
   group: starter-kit
   demo: ~
+- name: react-server-rendering-example
+  description: Super-basic example of how server rendering works
+  repo: https://github.com/petehunt/react-server-rendering-example
+  docs: ~
+  group: starter-kit
+  demo: ~
+- name: react-component-boilerplate
+  description: A React component boilerplate. Test your component quickly and continuously with Karma.
+  repo: https://github.com/TYRONEMICHAEL/react-component-boilerplate
+  docs: ~
+  group: starter-kit
+  demo: ~
+- name: react-starterify
+  description: React JS application skeleton using Browserify and other awesome tools
+  repo: https://github.com/Granze/react-starterify
+  docs: ~
+  group: starter-kit
+  demo: ~
+- name: react-starter-kit
+  description: ReactJS / Flux Starter Kit - a skeleton for an isomorphic web application (SPA) built with Facebook's React.js library and powered by Flux architecture. It also uses ES6 Harmony, JSX, Gulp, Webpack, BrowserSync, Jest, Flow...
+  repo: https://github.com/kriasoft/react-starter-kit
+  docs: ~
+  group: starter-kit
+  demo: http://reactjs.kriasoft.com/
+- name: react-boilerplate
+  description: ~
+  repo: https://github.com/rackt/react-boilerplate
+  docs: ~
+  group: starter-kit
+  demo: http://reactjs.kriasoft.com/
 
 - name: om
   description: ClojureScript interface to Facebook's React
@@ -530,6 +668,36 @@
 - name: react-clickdrag-mixin
   description: ClickDrag mixin for React component
   repo: https://github.com/tleunen/react-clickdrag-mixin
+  docs: ~
+  group: data
+  demo: ~
+- name: dispatchr
+  description: A Flux dispatcher for applications that run on the server and the client.
+  repo: https://github.com/yahoo/dispatchr
+  docs: ~
+  group: data
+  demo: ~
+- name: fetchr
+  description: Fetchr augments applications by allowing the same syntax to be used on the server and client to fetch data.
+  repo: https://github.com/yahoo/fetchr
+  docs: ~
+  group: data
+  demo: ~
+- name: mcfly
+  description: Flux architecture made easy
+  repo: https://github.com/kenwheeler/mcfly
+  docs: ~
+  group: data
+  demo: ~
+- name: delorean
+  description: An Agnostic, Complete Flux Architecture Framework
+  repo: https://github.com/deloreanjs/delorean
+  docs: ~
+  group: data
+  demo: ~
+- name: marty
+  description: Helping you build Flux applications with React
+  repo: https://github.com/jhollingworth/marty
   docs: ~
   group: data
   demo: ~
