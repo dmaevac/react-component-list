@@ -476,6 +476,12 @@
   docs: ~
   group: component
   demo: ~
+- name: react-tagsinput
+  description: A simple react component for inputing tags.
+  repo: https://github.com/voronianski/react-tagsinput
+  docs: ~
+  group: component
+  demo: https://olahol.github.io/react-tagsinput
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
