@@ -482,6 +482,24 @@
   docs: ~
   group: component
   demo: https://olahol.github.io/react-tagsinput
+- name: react-meteor
+  description: React rendering for Meteor apps
+  repo: https://github.com/reactjs/react-meteor
+  docs: ~
+  group: component
+  demo: ~
+- name: react-textselect
+  description: Select dropdown over text React component
+  repo: https://github.com/javierbyte/react-textselect
+  docs: ~
+  group: component
+  demo: http://javierbyte.github.io/react-textselect
+- name: react-timesheet
+  description: Time Sheet Component for React
+  repo: https://github.com/yuanyan/react-timesheet
+  docs: ~
+  group: component
+  demo: http://yuanyan.github.io/react-timesheet
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
