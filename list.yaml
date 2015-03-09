@@ -500,6 +500,12 @@
   docs: ~
   group: component
   demo: http://yuanyan.github.io/react-timesheet
+- name: react-star-rating
+  description: A simple star rating component built with React.
+  repo: https://github.com/cameronjroe/react-star-rating
+  docs: ~
+  group: component
+  demo: http://cameronjroe.com/react-star-rating/
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
