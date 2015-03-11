@@ -798,3 +798,9 @@
   docs: ~
   group: build-tool
   demo: ~
+- name: super-react
+  description: Opinionated Command Line Tool for Scaffolding out Nested React Components Into Files
+  repo: https://github.com/mtomcal/super-react
+  docs: ~
+  group: build-tool
+  demo: ~
