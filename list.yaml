@@ -506,6 +506,12 @@
   docs: ~
   group: component
   demo: http://cameronjroe.com/react-star-rating/
+- name: react-count
+  description: Real-time counter button react component.
+  repo: https://github.com/hashobject/react-count
+  docs: ~
+  group: component
+  demo: http://react-count.hashobject.com/
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
