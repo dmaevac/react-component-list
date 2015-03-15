@@ -1,3 +1,8 @@
+- name: react-autosuggest
+  description: WAI-ARIA compliant React autosuggest component
+  repo: https://github.com/moroshko/react-autosuggest
+  group: component
+  demo: http://moroshko.github.io/react-autosuggest/
 - name: react-router-component
   description: Declarative router component for React
   repo: https://github.com/STRML/react-router-component
