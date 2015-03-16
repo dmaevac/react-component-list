@@ -517,6 +517,18 @@
   docs: ~
   group: component
   demo: http://react-count.hashobject.com/
+- name: react-free-style
+  description: Combine the free style with React components
+  repo: https://github.com/blakeembrey/react-free-style
+  docs: ~
+  group: component
+  demo: ~
+- name: react-cookie
+  description: Load and save cookies within your React application
+  repo: https://github.com/eXon/react-cookie
+  docs: ~
+  group: component
+  demo: ~
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
