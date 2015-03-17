@@ -1,11 +1,49 @@
+- name: reactable
+  description: Fast, flexible, and simple data tables in React
+  repo: https://github.com/glittershark/reactable
+  docs: ~
+  group: component
+  demo: http://glittershark.github.io/reactable/
+- name: react-analytics
+  description: A React component that renders the segment.io snippet.
+  repo: https://github.com/evanrs/react-analytics
+  docs: ~
+  group: component
+  demo: ~
+- name: react-infinite-grid
+  description: A React component which renders a grid of elements.
+  repo: https://github.com/ggordan/react-infinite-grid
+  docs: ~
+  group: component
+  demo: http://ggordan.com/post/react-infinite-grid.html
+- name: react-theatre
+  description: A React component which accepts one or more React elements and allows you to navigate them in a lightbox.
+  repo: https://github.com/ggordan/react-theatre
+  docs: ~
+  group: component
+  demo: ~
+- name: cascade-select
+  description: CascadeSelect UI Component For React
+  repo: https://github.com/react-component/cascade-select
+  docs: ~
+  group: component
+  demo: http://react-component.github.io/cascade-select/build/examples/
+- name: react-localstorage
+  description: Simple componentized localstorage implementation for Facebook's React.
+  repo: https://github.com/STRML/react-localstorage
+  docs: ~
+  group: component
+  demo: ~
 - name: react-autosuggest
   description: WAI-ARIA compliant React autosuggest component
   repo: https://github.com/moroshko/react-autosuggest
+  docs: ~
   group: component
   demo: http://moroshko.github.io/react-autosuggest/
 - name: react-router-component
   description: Declarative router component for React
   repo: https://github.com/STRML/react-router-component
+  docs: ~
   group: component
   demo: ~
 - name: react-async
@@ -597,6 +635,12 @@
   group: starter-kit
   demo: http://reactjs.kriasoft.com/
 
+- name: react-script
+  description: An elegant DSL for React for use with CoffeeScript (and other languages)
+  repo: https://github.com/1j01/react-script
+  docs: ~
+  group: interface
+  demo: ~
 - name: om
   description: ClojureScript interface to Facebook's React
   repo: https://github.com/swannodette/om
@@ -675,6 +719,12 @@
   docs: ~
   group: interface
   demo: ~
+- name: touchstonejs
+  description: Mobile App Framework powered by React
+  repo: http://react-components.com/component/touchstonejs
+  docs: ~
+  group: interface
+  demo: http://touchstonejs.io/
 
 - name: cortex
   description: A javascript library for centrally managing data with React
