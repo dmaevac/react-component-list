@@ -567,6 +567,12 @@
   docs: ~
   group: component
   demo: ~
+- name: react-super-select
+  description: A flexible replacement for the html select control built with React
+  repo: https://github.com/alsoscotland/react-super-select
+  docs: http://alsoscotland.github.io/react-super-select/
+  group: component
+  demo: http://alsoscotland.github.io/react-super-select/react-super-select-examples.html
 
 - name: react-quickstart
   description: React project template with server-side UI rendering and routing
