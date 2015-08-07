@@ -567,6 +567,18 @@
   docs: ~
   group: component
   demo: ~
+- name: react-notification-system
+  description:  A complete and totally customizable notifications component for React
+  repo: https://github.com/igorprado/react-notification-system
+  docs: ~
+  group: component
+  demo: http://igorprado.com/react-notification-system/
+- name: react-d3
+  description: Modular React charts made with d3.js
+  repo: https://github.com/esbullington/react-d3
+  docs: ~
+  group: component
+  demo: http://esbullington.github.io/react-d3-website/
 - name: react-super-select
   description: A flexible replacement for the html select control built with React
   repo: https://github.com/alsoscotland/react-super-select
