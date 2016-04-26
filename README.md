@@ -1,5 +1,13 @@
 #React component list
 
+**================================================**
+
+**NO LONGER MAINTAINED**
+
+Check out http://react-components.com/ or https://js.coach/react instead
+
+**================================================**
+
 A list of react.js components & related projects. (in yaml format)
 
 Compiles to ./dist/list.json with extra metadata fetched from github.
